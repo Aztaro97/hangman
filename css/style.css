@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html , body {
+  margin: 0;padding: 0;
+
+}
+.container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main {
+  text-align: center;
+}
+.btn {
+  padding: .5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3rem;
+  background: #3498db;
+  color: #ffff;
+}
+
+.btn.reset {
+  color: #fff;
+  background: #1abc9c;
+  margin-top: 10px;
+}
